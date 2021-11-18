@@ -1,10 +1,8 @@
-"use strict";
 /*
  * For a detailed explanation regarding each configuration property and type check, visit:
  * https://jestjs.io/docs/configuration
  */
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.default = {
+module.exports = {
     // All imported modules in your tests should be mocked automatically
     // automock: false,
     // Stop running tests after `n` failures
