@@ -1,0 +1,15 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.showUserById = exports.turnAdmin = exports.listUsersAdmin = exports.createUser = void 0;
+var createUserUseCase_1 = require("../useCases/createUser/createUserUseCase");
+var listAllUsersUseCase_1 = require("../useCases/listAllUsers/listAllUsersUseCase");
+var turnUserAdminUseCase_1 = require("../useCases/turnUserAdmin/turnUserAdminUseCase");
+var showUserProfileUserCase_1 = require("../useCases/showUserProfile/showUserProfileUserCase");
+var createUser = new createUserUseCase_1.createUserUseCase();
+exports.createUser = createUser;
+var listUsersAdmin = new listAllUsersUseCase_1.listAllUsersUseCase();
+exports.listUsersAdmin = listUsersAdmin;
+var turnAdmin = new turnUserAdminUseCase_1.turnUserAdminUseCase();
+exports.turnAdmin = turnAdmin;
+var showUserById = new showUserProfileUserCase_1.showUserProfileUserCase();
+exports.showUserById = showUserById;
