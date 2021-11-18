@@ -1,4 +1,4 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var index_1 = require("./index");
-index_1.app.listen(3000);
+var _1 = require(".");
+_1.app.listen(3000);
